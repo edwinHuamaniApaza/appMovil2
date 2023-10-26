@@ -5,8 +5,14 @@ class Product {
   final String description;
   final double price;
   final String imagePath;
+  int quantity;
 
-  Product(this.name, this.description, this.price, this.imagePath);// parametros
+  Product({required this.name, required this.description, required this.price, required this.imagePath,this.quantity = 0 });
 
+  
+}
+class Cart {
+  final List<Product> items;
 
+  Cart(this.items);
 }
