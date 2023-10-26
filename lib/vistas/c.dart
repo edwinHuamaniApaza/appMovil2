@@ -1,4 +1,4 @@
-import 'package:aplicacion3/producto.dart';
+/* import 'package:aplicacion3/producto.dart';
 import 'package:flutter/material.dart';
 
 class ShoppingCartPage extends StatefulWidget {
@@ -94,3 +94,4 @@ class _ShoppingCartPageState extends State<ShoppingCartPage> {
     );
   }
 }
+ */
